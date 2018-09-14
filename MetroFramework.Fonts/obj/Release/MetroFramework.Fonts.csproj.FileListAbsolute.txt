@@ -1,0 +1,15 @@
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.dll
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.pdb
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.dll
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.csprojResolveAssemblyReference.cache
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.csproj.CoreCompileInputs.cache
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.dll
+F:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.pdb
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.dll
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.Fonts.pdb
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\bin\Release\MetroFramework.dll
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.csprojAssemblyReference.cache
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.csproj.CoreCompileInputs.cache
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.csproj.CopyComplete
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.dll
+E:\OneDrive\BUNIFUUI\metroframework-modern-ui-master\MetroFramework.Fonts\obj\Release\MetroFramework.Fonts.pdb
