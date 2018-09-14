@@ -226,22 +226,22 @@ namespace MetroFramework
 
         public static Font DefaultLight(float size)
         {
-            return FontResolver.ResolveFont("Segoe UI Light", size, FontStyle.Regular, GraphicsUnit.Pixel);
+            return FontResolver.ResolveFont("Kanit Light", size, FontStyle.Regular, GraphicsUnit.Pixel);
         }
 
         public static Font Default(float size)
         {
-            return FontResolver.ResolveFont("Segoe UI", size, FontStyle.Regular, GraphicsUnit.Pixel);
+            return FontResolver.ResolveFont("Kanit", size, FontStyle.Regular, GraphicsUnit.Pixel);
         }
 
         public static Font DefaultBold(float size)
         {
-            return FontResolver.ResolveFont("Segoe UI", size, FontStyle.Bold, GraphicsUnit.Pixel);
+            return FontResolver.ResolveFont("Kanit", size, FontStyle.Bold, GraphicsUnit.Pixel);
         }
 
         public static Font DefaultItalic(float size)
         {
-            return FontResolver.ResolveFont("Segoe UI", size, FontStyle.Italic, GraphicsUnit.Pixel);
+            return FontResolver.ResolveFont("Kanit", size, FontStyle.Italic, GraphicsUnit.Pixel);
         }
 
         public static Font Title

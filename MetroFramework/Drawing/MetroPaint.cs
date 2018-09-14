@@ -50,6 +50,9 @@ namespace MetroFramework.Drawing
                 if (theme == MetroThemeStyle.Dark)
                     return Color.FromArgb(68, 68, 68);
 
+                if (theme == MetroThemeStyle.PrimaryDark)
+                    return Color.FromArgb(68, 68, 68);
+
                 return Color.FromArgb(204, 204, 204);
             }
 
@@ -60,12 +63,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(68, 68, 68);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(68, 68, 68);
+
                     return Color.FromArgb(204, 204, 204);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(170, 170, 170);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(170, 170, 170);
 
                     return Color.FromArgb(102, 102, 102);
@@ -76,6 +85,9 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(238, 238, 238);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(238, 238, 238);
+
                     return Color.FromArgb(51, 51, 51);
                 }
 
@@ -83,6 +95,197 @@ namespace MetroFramework.Drawing
                 {
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(109, 109, 109);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(109, 109, 109);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonDanger
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(244, 67, 54);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(244, 67, 54); 
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(239, 83, 80);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(239, 83, 80);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(183, 28, 28);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(183, 28, 28);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(229, 115, 115);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(229, 115, 115);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonInfo
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(63, 81, 181);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(63, 81, 181);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(48, 63, 159);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(48, 63, 159);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(26, 35, 126);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(26, 35, 126);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(159, 168, 218);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(159, 168, 218);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonSuccess
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(76, 175, 80);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(76, 175, 80);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(56, 142, 60);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(56, 142, 60);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(27, 94, 32);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(27, 94, 32);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(165, 214, 167);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(165, 214, 167);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonWarning
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 193, 7);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 193, 7);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 160, 0);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 160, 0);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 111, 0);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 111, 0);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 224, 130);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 224, 130);
 
                     return Color.FromArgb(155, 155, 155);
                 }
@@ -95,12 +298,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(204, 204, 204);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(204, 204, 204);
 
                     return Color.FromArgb(51, 51, 51);
@@ -111,12 +320,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(85, 85, 85);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(85, 85, 85);
 
                     return Color.FromArgb(204, 204, 204);
@@ -130,12 +345,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(204, 204, 204);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(204, 204, 204);
 
                     return Color.FromArgb(51, 51, 51);
@@ -146,12 +367,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(85, 85, 85);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(85, 85, 85);
 
                     return Color.FromArgb(204, 204, 204);
@@ -165,12 +392,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(68, 68, 68);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(68, 68, 68);
+
                     return Color.FromArgb(204, 204, 204);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(68, 68, 68);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(68, 68, 68);
 
                     return Color.FromArgb(204, 204, 204);
@@ -181,12 +414,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(68, 68, 68);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(68, 68, 68);
+
                     return Color.FromArgb(204, 204, 204);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(109, 109, 109);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(109, 109, 109);
 
                     return Color.FromArgb(155, 155, 155);
@@ -200,12 +439,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(68, 68, 68);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(68, 68, 68);
+
                     return Color.FromArgb(204, 204, 204);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(68, 68, 68);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(68, 68, 68);
 
                     return Color.FromArgb(204, 204, 204);
@@ -216,12 +461,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(68, 68, 68);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(68, 68, 68);
+
                     return Color.FromArgb(204, 204, 204);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(109, 109, 109);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(109, 109, 109);
 
                     return Color.FromArgb(155, 155, 155);
@@ -236,6 +487,9 @@ namespace MetroFramework.Drawing
                 if (theme == MetroThemeStyle.Dark)
                     return Color.FromArgb(17, 17, 17);
 
+                if (theme == MetroThemeStyle.PrimaryDark)
+                    return Color.FromArgb(45, 45, 48);
+
                 return Color.FromArgb(255, 255, 255);
             }
 
@@ -246,12 +500,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(34, 34, 34);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(45, 45, 48);
+
                     return Color.FromArgb(238, 238, 238);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(170, 170, 170);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(170, 170, 170);
 
                     return Color.FromArgb(102, 102, 102);
@@ -262,6 +522,9 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(238, 238, 238);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(238, 238, 238);
+
                     return Color.FromArgb(51, 51, 51);
                 }
 
@@ -270,7 +533,198 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(80, 80, 80);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(80, 80, 80);
+
                     return Color.FromArgb(204, 204, 204);
+                }
+            }
+
+            public static class ButtonDanger
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(244, 67, 54);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(244, 67, 54);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(211, 47, 47);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(211, 47, 47);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(183, 28, 28);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(183, 28, 28);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(239, 154, 154);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(239, 154, 154);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonInfo
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(63, 81, 181);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(63, 81, 181);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(48, 63, 159);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(48, 63, 159);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(26, 35, 126);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(26, 35, 126);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(159, 168, 218);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(159, 168, 218);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonSuccess
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(76, 175, 80);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(76, 175, 80);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(56, 142, 60);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(56, 142, 60);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(27, 94, 32);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(27, 94, 32);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(165, 214, 167);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(165, 214, 167);
+
+                    return Color.FromArgb(155, 155, 155);
+                }
+            }
+
+            public static class ButtonWarning
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 193, 7);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 193, 7);
+
+                    return Color.FromArgb(204, 204, 204);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 160, 0);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 160, 0);
+
+                    return Color.FromArgb(102, 102, 102);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 111, 0);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 111, 0);
+
+                    return Color.FromArgb(51, 51, 51);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 224, 130);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 224, 130);
+
+                    return Color.FromArgb(155, 155, 155);
                 }
             }
 
@@ -283,12 +737,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(153, 153, 153);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(153, 153, 153);
+
                         return Color.FromArgb(102, 102, 102);
                     }
 
                     public static Color Hover(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(204, 204, 204);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(204, 204, 204);
 
                         return Color.FromArgb(17, 17, 17);
@@ -299,12 +759,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(204, 204, 204);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(204, 204, 204);
+
                         return Color.FromArgb(17, 17, 17);
                     }
 
                     public static Color Disabled(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(85, 85, 85);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(85, 85, 85);
 
                         return Color.FromArgb(179, 179, 179);
@@ -318,12 +784,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(51, 51, 51);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(51, 51, 51);
+
                         return Color.FromArgb(204, 204, 204);
                     }
 
                     public static Color Hover(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(51, 51, 51);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(51, 51, 51);
 
                         return Color.FromArgb(204, 204, 204);
@@ -334,12 +806,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(51, 51, 51);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(51, 51, 51);
+
                         return Color.FromArgb(204, 204, 204);
                     }
 
                     public static Color Disabled(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(34, 34, 34);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(34, 34, 34);
 
                         return Color.FromArgb(230, 230, 230);
@@ -356,6 +834,10 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(51, 51, 51);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(63, 63, 70);
+                        
+
                         return Color.FromArgb(221, 221, 221);
                     }
 
@@ -363,6 +845,9 @@ namespace MetroFramework.Drawing
                     {
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(204, 204, 204);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(30, 30, 30);
 
                         return Color.FromArgb(96, 96, 96);
                     }
@@ -372,12 +857,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(204, 204, 204);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(204, 204, 204);
+
                         return Color.FromArgb(96, 96, 96);
                     }
 
                     public static Color Disabled(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(51, 51, 51);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(51, 51, 51);
 
                         return Color.FromArgb(221, 221, 221);
@@ -391,12 +882,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(38, 38, 38);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(38, 38, 38);
+
                         return Color.FromArgb(234, 234, 234);
                     }
 
                     public static Color Hover(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(38, 38, 38);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(38, 38, 38);
 
                         return Color.FromArgb(234, 234, 234);
@@ -407,12 +904,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(38, 38, 38);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(38, 38, 38);
+
                         return Color.FromArgb(234, 234, 234);
                     }
 
                     public static Color Disabled(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(38, 38, 38);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(38, 38, 38);
 
                         return Color.FromArgb(234, 234, 234);
@@ -429,12 +932,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(38, 38, 38);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(38, 38, 38);
+
                         return Color.FromArgb(234, 234, 234);
                     }
 
                     public static Color Hover(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(38, 38, 38);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(38, 38, 38);
 
                         return Color.FromArgb(234, 234, 234);
@@ -445,12 +954,18 @@ namespace MetroFramework.Drawing
                         if (theme == MetroThemeStyle.Dark)
                             return Color.FromArgb(38, 38, 38);
 
+                        if (theme == MetroThemeStyle.PrimaryDark)
+                            return Color.FromArgb(38, 38, 38);
+
                         return Color.FromArgb(234, 234, 234);
                     }
 
                     public static Color Disabled(MetroThemeStyle theme)
                     {
                         if (theme == MetroThemeStyle.Dark)
+                            return Color.FromArgb(51, 51, 51);
+
+                        if (theme == MetroThemeStyle.PrimaryDark)
                             return Color.FromArgb(51, 51, 51);
 
                         return Color.FromArgb(221, 221, 221);
@@ -468,6 +983,9 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(204, 204, 204);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(204, 204, 204);
+
                     return Color.FromArgb(0, 0, 0);
                 }
 
@@ -475,6 +993,9 @@ namespace MetroFramework.Drawing
                 {
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(17, 17, 17);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(45, 45, 48);
 
                     return Color.FromArgb(255, 255, 255);
                 }
@@ -484,6 +1005,9 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(17, 17, 17);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(45, 45, 48);
+
                     return Color.FromArgb(255, 255, 255);
                 }
 
@@ -492,6 +1016,197 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(109, 109, 109);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(109, 109, 109);
+
+                    return Color.FromArgb(136, 136, 136);
+                }
+            }
+
+            public sealed class ButtonDanger
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(0, 0, 0);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    return Color.FromArgb(136, 136, 136);
+                }
+            }
+
+            public sealed class ButtonInfo
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(0, 0, 0);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    return Color.FromArgb(136, 136, 136);
+                }
+            }
+
+            public sealed class ButtonSuccess
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(0, 0, 0);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    return Color.FromArgb(136, 136, 136);
+                }
+            }
+
+            public sealed class ButtonWarning
+            {
+                public static Color Normal(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(0, 0, 0);
+                }
+
+                public static Color Hover(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Press(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    return Color.FromArgb(255, 255, 255);
+                }
+
+                public static Color Disabled(MetroThemeStyle theme)
+                {
+                    if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(17, 17, 17);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(17, 17, 17);
+
                     return Color.FromArgb(136, 136, 136);
                 }
             }
@@ -499,6 +1214,9 @@ namespace MetroFramework.Drawing
             public static Color Title(MetroThemeStyle theme)
             {
                 if (theme == MetroThemeStyle.Dark)
+                    return Color.FromArgb(255, 255, 255);
+
+                if (theme == MetroThemeStyle.PrimaryDark)
                     return Color.FromArgb(255, 255, 255);
 
                 return Color.FromArgb(0, 0, 0);
@@ -511,12 +1229,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(255, 255, 255);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
                     return Color.FromArgb(255, 255, 255);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(255, 255, 255);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(255, 255, 255);
 
                     return Color.FromArgb(255, 255, 255);
@@ -527,12 +1251,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(255, 255, 255);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(255, 255, 255);
+
                     return Color.FromArgb(255, 255, 255);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(209, 209, 209);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(209, 209, 209);
 
                     return Color.FromArgb(209, 209, 209);
@@ -546,12 +1276,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(170, 170, 170);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(170, 170, 170);
+
                     return Color.FromArgb(0, 0, 0);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(93, 93, 93);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(93, 93, 93);
 
                     return Color.FromArgb(128, 128, 128);
@@ -562,12 +1298,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(93, 93, 93);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(93, 93, 93);
+
                     return Color.FromArgb(128, 128, 128);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(51, 51, 51);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(51, 51, 51);
 
                     return Color.FromArgb(209, 209, 209);
@@ -581,12 +1323,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(170, 170, 170);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(170, 170, 170);
+
                     return Color.FromArgb(0, 0, 0);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(51, 51, 51);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(51, 51, 51);
 
                     return Color.FromArgb(209, 209, 209);
@@ -600,12 +1348,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(170, 170, 170);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(170, 170, 170);
+
                     return Color.FromArgb(17, 17, 17);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(153, 153, 153);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(153, 153, 153);
 
                     return Color.FromArgb(153, 153, 153);
@@ -616,12 +1370,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(93, 93, 93);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(93, 93, 93);
 
                     return Color.FromArgb(136, 136, 136);
@@ -635,12 +1395,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(153, 153, 153);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(153, 153, 153);
+
                     return Color.FromArgb(153, 153, 153);
                 }
 
                 public static Color Hover(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(170, 170, 170);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(170, 170, 170);
 
                     return Color.FromArgb(17, 17, 17);
@@ -659,6 +1425,9 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(93, 93, 93);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(93, 93, 93);
+
                     return Color.FromArgb(136, 136, 136);
                 }
             }
@@ -670,12 +1439,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(170, 170, 170);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(170, 170, 170);
+
                     return Color.FromArgb(0, 0, 0);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(51, 51, 51);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(51, 51, 51);
 
                     return Color.FromArgb(209, 209, 209);
@@ -689,12 +1464,18 @@ namespace MetroFramework.Drawing
                     if (theme == MetroThemeStyle.Dark)
                         return Color.FromArgb(170, 170, 170);
 
+                    if (theme == MetroThemeStyle.PrimaryDark)
+                        return Color.FromArgb(170, 170, 170);
+
                     return Color.FromArgb(0, 0, 0);
                 }
 
                 public static Color Disabled(MetroThemeStyle theme)
                 {
                     if (theme == MetroThemeStyle.Dark)
+                        return Color.FromArgb(51, 51, 51);
+
+                    if (theme == MetroThemeStyle.PrimaryDark)
                         return Color.FromArgb(51, 51, 51);
 
                     return Color.FromArgb(209, 209, 209);

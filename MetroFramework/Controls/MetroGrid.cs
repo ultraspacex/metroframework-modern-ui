@@ -218,7 +218,7 @@ namespace MetroFramework.Controls
 
             this.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             this.ColumnHeadersDefaultCellStyle.BackColor = MetroPaint.GetStyleColor(Style);
-            this.ColumnHeadersDefaultCellStyle.ForeColor = MetroPaint.ForeColor.Button.Press(Theme);
+           // this.ColumnHeadersDefaultCellStyle.ForeColor = MetroPaint.ForeColor.Button.Press(Theme);
 
             this.RowHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             this.RowHeadersDefaultCellStyle.BackColor = MetroPaint.GetStyleColor(Style);
@@ -227,16 +227,16 @@ namespace MetroFramework.Controls
             this.DefaultCellStyle.BackColor = MetroPaint.BackColor.Form(Theme);
 
             this.DefaultCellStyle.SelectionBackColor = ControlPaint.Light(MetroPaint.GetStyleColor(Style), _offset);
-            this.DefaultCellStyle.SelectionForeColor = Color.FromArgb(17, 17, 17);
+            this.DefaultCellStyle.SelectionForeColor = Color.FromArgb(45, 45, 48);
 
             this.DefaultCellStyle.SelectionBackColor = ControlPaint.Light(MetroPaint.GetStyleColor(Style), _offset);
-            this.DefaultCellStyle.SelectionForeColor = Color.FromArgb(17, 17, 17);
+            this.DefaultCellStyle.SelectionForeColor = Color.FromArgb(45, 45, 48);
 
             this.RowHeadersDefaultCellStyle.SelectionBackColor = ControlPaint.Light(MetroPaint.GetStyleColor(Style), _offset);
-            this.RowHeadersDefaultCellStyle.SelectionForeColor = Color.FromArgb(17, 17, 17);
+            this.RowHeadersDefaultCellStyle.SelectionForeColor = Color.FromArgb(45, 45, 48);
 
             this.ColumnHeadersDefaultCellStyle.SelectionBackColor = ControlPaint.Light(MetroPaint.GetStyleColor(Style), _offset);
-            this.ColumnHeadersDefaultCellStyle.SelectionForeColor = Color.FromArgb(17, 17, 17);
+            this.ColumnHeadersDefaultCellStyle.SelectionForeColor = Color.FromArgb(45, 45, 48);
         }
     }
 

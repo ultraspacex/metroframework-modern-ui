@@ -102,6 +102,18 @@
     <Compile Include="Components\MetroToolTip.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Controls\MetroWarningButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroSuccessButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroInfoButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MetroDangerButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Controls\MetroButton.cs">
       <SubType>Component</SubType>
     </Compile>
